@@ -1,0 +1,3 @@
+.service-add label:nth-of-type(n + 2) {
+    margin-left: 2rem;
+}

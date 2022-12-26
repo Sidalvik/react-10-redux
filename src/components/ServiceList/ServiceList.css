@@ -1,0 +1,21 @@
+.service-list__item {
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.service-list__item.active {
+    background-color: #f1c4c4;
+    font-style: italic;
+}
+
+.service-list__item .service-name {
+    display: block;
+    margin-right: auto;
+}
+
+.service-list__item .service-price {
+    display: block;
+    margin-left: auto;
+    font-size: 1.1em;
+}
